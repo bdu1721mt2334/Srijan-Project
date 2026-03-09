@@ -1,0 +1,185 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+}
+
+.container {
+  width: 80%;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #c6f000;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.vendor-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.vendor-table th,
+.vendor-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f9;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #ffffff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.logo {
+    color: #111;
+}
+
+.nav-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #000;
+}
+
+.logout {
+    color: red;
+}
+
+/* MAIN CONTAINER */
+.container {
+    width: 80%;
+    margin: 40px auto;
+}
+
+/* CARD */
+.card {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card h1 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+}
+
+/* LOGIN PAGE CENTER */
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f6f9;
+}
+
+/* LOGIN BOX */
+.login-box {
+    width: 350px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background: #c6ff00;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* INPUT FIELDS */
+.container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* PRIMARY BUTTON */
+.primary-btn {
+  width: 100%;
+  padding: 10px;
+  background: #c6ff00;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background: #b0e600;
+}
+
+/* TABLE */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.data-table th {
+  background: #f1f1f1;
+  text-align: left;
+  padding: 10px;
+}
+
+.data-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.data-table tr:hover {
+  background: #fafafa;
+}

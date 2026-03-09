@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Order</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <h2 class="logo">Vendor App</h2>
+    <div class="nav-links">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="add-vendor.html">Add Vendor</a>
+        <a href="view-vendor.html">View Vendors</a>
+        <a href="add-order.html">Add Order</a>
+        <a href="reports.html">Reports</a>
+    </div>
+</div>
+
+<div class="container">
+    <div class="card">
+        <h2>Add Order</h2>
+
+        <input type="text" id="vendor" placeholder="Vendor Name">
+        <input type="text" id="product" placeholder="Product Name">
+        <input type="number" id="amount" placeholder="Amount">
+        <input type="date" id="date">
+
+        <button class="primary-btn" onclick="saveOrder()">Save Order</button>
+    </div>
+</div>
+
+<script src="js/order.js"></script>
+</body>
+</html>
